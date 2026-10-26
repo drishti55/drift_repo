@@ -34,8 +34,8 @@ A lightweight command-line expense tracker written in Python. Track your daily e
 
 ### 1. Add an Expense
 ```bash
-python main.py add --amount 14.50 --category Food --desc "Lunch burrito"
-python main.py add --amount 45.00 --category Transport --desc "Train ticket" --date 2024-03-15
+python main.py add --amount 14.50 --cat Food --desc "Lunch burrito"
+python main.py add --amount 45.00 --cat Transport --desc "Train ticket" --date 2024-03-15
 ```
 
 ### 2. List Expenses
@@ -46,7 +46,7 @@ python main.py list
 
 Filter by category:
 ```bash
-python main.py list --category Food
+python main.py list --cat Food
 ```
 
 ### 3. View Total Expenses
@@ -57,7 +57,7 @@ python main.py total
 
 Calculate total for a specific category:
 ```bash
-python main.py total --category Food
+python main.py total --cat Food
 ```
 
 ### 4. Delete an Expense
