@@ -32,5 +32,5 @@ def test_delete_expense(manager):
 def test_calculate_total(manager):
     manager.add_expense(10.00, "Food", "Snack")
     manager.add_expense(25.00, "Transport", "Gas")
-    total = manager.calculate_total()
+    total = manager.get_total()
     assert total == 35.00
